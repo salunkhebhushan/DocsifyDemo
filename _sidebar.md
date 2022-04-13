@@ -4,9 +4,9 @@
 * [HOME](./)
 
   * [Gas](./tutorials/index)
-  * [Ethereum](./tutorials/tomcat/index)
-  * [Accounts](./tutorials/cloud/index)
-  * [Transactions](./tutorials/java/index)
+  * [Ethereum](./tutorials/ethereum/index)
+  * [Accounts](./tutorials/accounts/index)
+  * [Transactions](./tutorials/transactions/index)
 
 * [Blockchain](./blockchain/index)
 
