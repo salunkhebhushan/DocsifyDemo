@@ -3,8 +3,8 @@
 
 * [HOME](./)
 
-* [Tutorial](./tutorials/index)
-  * [Tomcat](./tutorials/tomcat/index)
+* [Blockchain Basics](./tutorials/index)
+  * [Ethereum](./tutorials/tomcat/index)
   * [Cloud](./tutorials/cloud/index)
   * [Java](./tutorials/java/index)
 
