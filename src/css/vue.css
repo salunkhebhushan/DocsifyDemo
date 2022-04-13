@@ -293,7 +293,7 @@ main.hidden {
 }
 body.sticky .sidebar,
 body.sticky .sidebar-toggle {
-  position: fixed;
+  position: absolute;
 }
 .content {
   padding-top: -10px;
