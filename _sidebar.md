@@ -8,6 +8,6 @@
   * [Accounts](./tutorials/cloud/index)
   * [Transactions](./tutorials/java/index)
 
-* [Blockchain](./about/index)
+* [Blockchain](./blockchain/index)
 
-* [Types of Blockchain](./contact/index)
+* [Types of Blockchain](./type/index)
