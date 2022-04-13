@@ -3,12 +3,11 @@
 
 * [HOME](./)
 
-* [Blockchain Basics](./tutorials/index)
+  * [Gas](./tutorials/index)
   * [Ethereum](./tutorials/tomcat/index)
-  * [Cloud](./tutorials/cloud/index)
-  * [Java](./tutorials/java/index)
+  * [Accounts](./tutorials/cloud/index)
+  * [Transactions](./tutorials/java/index)
 
-* [About](./about/index)
+* [Blockchain](./about/index)
 
-* [Contact](./contact/index)
-
+* [Types of Blockchain](./contact/index)
