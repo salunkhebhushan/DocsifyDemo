@@ -1,3 +1,3 @@
 # Contact 
 
-To contact us, please create a GitHub issue!
+To contact us, please create a GitHub of is issue!
