@@ -10,5 +10,5 @@
 
 * [About](./about/index)
 
-* [Type Of Block](./type/index)
+* [Contact](./contact/index)
 
