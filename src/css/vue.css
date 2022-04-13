@@ -296,7 +296,7 @@ body.sticky .sidebar-toggle {
   position: absolute;
 }
 .content {
-  padding-top: 20px;
+  padding-top: 10px;
   position: absolute;
   top: 0;
   right: 0;
