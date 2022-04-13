@@ -10,5 +10,5 @@
 
 * [About](./about/index)
 
-* [test](./contact/index)
+* [Contact](./contact/index)
 
