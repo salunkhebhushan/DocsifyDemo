@@ -24,6 +24,9 @@ div#app {
 div#app:empty::before {
   content: 'Loading...';
 }
+.navbar--light {
+    margin: 0px !important;
+}
 .emoji {
   height: 1.2rem;
   vertical-align: middle;
@@ -168,7 +171,8 @@ li input[type='checkbox'] {
   right: 0;
   text-decoration: none;
   top: 0;
-  z-index: 1;
+  z-index: 999;
+  display: none;
 }
 .github-corner:hover .octo-arm {
   -webkit-animation: octocat-wave 560ms ease-in-out;
@@ -186,6 +190,13 @@ main {
   width: 100vw;
   height: 100%;
   z-index: 0;
+}
+.announcementBar_1l0Z {
+    position: relative;
+    z-index: 1;
+}
+main .sidebar-toggle {
+    display: none;
 }
 main.hidden {
   display: none;
@@ -227,9 +238,8 @@ main.hidden {
   display: block;
   position: static;
 }
-.sidebar .sidebar-nav {
-  line-height: 2em;
-  padding-bottom: 40px;
+body.sticky .sidebar .sidebar-nav {
+    margin: 15px 15px 0px;
 }
 .sidebar li.collapse .app-sub-sidebar {
   display: none;
@@ -295,14 +305,26 @@ body.sticky .sidebar,
 body.sticky .sidebar-toggle {
   position: absolute;
 }
+body.sticky .sidebar {
+    padding-top: 0px;
+}
+.sidebar .sidebar-nav > ul {
+    margin: 0px;
+}
+.sidebar .sidebar-nav > ul > li {
+    margin: 0px;
+}
 .content {
-  padding-top: 10px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 300px;
-  transition: left 250ms ease;
+    padding-top: 10px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 300px;
+    transition: left 250ms ease;
+}
+footer.footer {
+    position: relative;
+    z-index: 1;
 }
 .markdown-section {
   margin: 0 auto;
@@ -600,13 +622,18 @@ body {
   margin: 6px 0 6px 0;
 }
 .sidebar ul li a {
-  color: #505d6b;
-  font-size: 14px;
-  font-weight: normal;
-  overflow: hidden;
-  text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    color: #505d6b;
+    font-size: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    text-decoration: none !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 6px 15px;
+    display: block;
+}
+.sidebar ul li a:hover {
+    background: rgba(0,0,0,.05);
 }
 .sidebar ul li a:hover {
   text-decoration: underline;
